@@ -1,0 +1,10 @@
+use("mi_base_prueba")
+db.producto.insertOne({
+    name: "huawei",
+    price: 200,
+    stock: 10,
+    category: "celular",
+    description: "celular huawei",
+})
+
+db.producto.find();
